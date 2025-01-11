@@ -1,3 +1,5 @@
+import CategoryContainer from '../../component/category/categoryContainer';
+
 export default function MenuPage() {
-  return <div> Menu Page </div>;
+  return <CategoryContainer />;
 }
