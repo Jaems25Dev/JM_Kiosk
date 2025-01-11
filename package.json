@@ -13,8 +13,8 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "eslint",
-      "prettier --write '**/*.ts' '**/*.tsx'"
+      "prettier --write '**/*.ts' '**/*.tsx'",
+      "eslint"
     ]
   },
   "dependencies": {
