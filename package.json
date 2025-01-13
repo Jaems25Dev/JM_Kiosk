@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "npx eslint .",
     "prettier": "npx prettier --write '**/*.ts' '**/*.tsx'",
-    "postinstall": "./postinstall.sh",
+    "postinstall": "./init.sh",
     "prepare": "husky install"
   },
   "lint-staged": {
